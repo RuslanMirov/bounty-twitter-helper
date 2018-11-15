@@ -4,9 +4,9 @@ Created on Tue Nov 13 17:20:01 2018
 
 @author: Ruslan
 """
-from get_user_likes import get_twitter_user_rts_and_favs
+from parse_user_likes import get_twitter_user_rts_and_favs
 
-# # # # HELPERS for sort, delete dublicate and save # # # #  
+# # # # HELPERS for parse, sort, delete dublicate and save # # # #  
 class Helpers():
     
     def save(self, namefile, content):
